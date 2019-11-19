@@ -20,6 +20,7 @@ nav:
         - GreenCoords: plugins/greencoords.md
       - Paid Plugins:
           - Moderation: plugins/moderation.md
+          - Keycards: plugins/keycards.md
 
 theme:
   name: 'material'
