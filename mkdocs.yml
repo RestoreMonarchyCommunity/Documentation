@@ -1,0 +1,50 @@
+site_name: Restore Monarchy
+site_description: 'A General Restore Monarchy Docs'
+site_author: 'MCrow'
+site_url: 'http://docs.restoremonarchy.com/'
+
+repo_name: 'RestoreMonarchy/UnturnedServersCommunity'
+repo_url: 'https://github.com/RestoreMonarchy/UnturnedServersCommunity'
+edit_uri: 'https://github.com/RestoreMonarchy/Docs.RestoreMonarchy'
+
+nav:
+    - Home: index.md
+    - Plugins:
+      - About: plugins/index.md
+      - Free Plugins:
+        - AirdropManager: plugins/airdropmanager.md
+        - Teleportation: plugins/teleportation.md
+        - MoreHomes: plugins/morehomes.md
+        - Pickpocket: plugins/pickpocket.md
+        - SellDoor: plugins/selldoor.md
+        - GreenCoords: plugins/greencoords.md
+
+theme:
+  name: 'material'
+  logo: 'assets/images/logo.png'
+  palette:
+    primary: 'cyan'
+    accent: 'ligh blue'
+  font:
+    text: 'Ubuntu'
+    code: 'Ubuntu Mono'
+  favicon: 'favicon.ico'
+  feature:
+    tabs: true
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - meta
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/restoremonarchy'
+    - type: 'twitter'
+      link: 'https://twitter.com/restoremonarchy'
+      
+extra_css:
+  - 'stylesheets/global.css'
+
+copyright: 'Copyright &copy; 2018-2019 Restore Monarchy'
