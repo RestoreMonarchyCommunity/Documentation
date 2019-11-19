@@ -18,6 +18,8 @@ nav:
         - Pickpocket: plugins/pickpocket.md
         - SellDoor: plugins/selldoor.md
         - GreenCoords: plugins/greencoords.md
+      - Paid Plugins:
+          - Moderation: plugins/moderation.md
 
 theme:
   name: 'material'
