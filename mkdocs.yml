@@ -5,7 +5,7 @@ site_url: 'http://docs.restoremonarchy.com/'
 
 repo_name: 'RestoreMonarchy/UnturnedServersCommunity'
 repo_url: 'https://github.com/RestoreMonarchy/UnturnedServersCommunity'
-edit_uri: 'https://github.com/RestoreMonarchy/Docs.RestoreMonarchy'
+edit_uri: 'https://github.com/RestoreMonarchy/RestoreMonarchyDocs/blob/master/docs'
 
 nav:
     - Home: index.md
@@ -21,6 +21,8 @@ nav:
       - Paid Plugins:
           - Moderation: plugins/moderation.md
           - Keycards: plugins/keycards.md
+      - Development:
+        - Getting Started: plugins/development/getting-started.md
 
 theme:
   name: 'material'

@@ -3,7 +3,7 @@
 Plugin Name: **Moderation**  
 Creator: [**MCrow**](steamcommunity.com/id/restoremonarchy)  
 Creation Date: **2019-06-30**  
-Price: **$7**  
+Price: **$10**  
 Buy: [**ImperialPlugins**](https://imperialplugins.com/Products/Moderation)
 
 ## About Plugin
@@ -17,7 +17,7 @@ Moderation is an advanced and optimized plugin for punishing and checking player
 * Stores players' data long with the code of a country they connect from
 
 ## Commands
-**/ban** *<player/steamID> [duration] [reason]* – Bans specified `player` for `duration` with `reason`.
+**/ban** *<player/steamID> [reason] [duration]* – Bans specified `player` for `duration` with `reason`.
 ``` 
 <Permission Cooldown="0">ban</Permission>
 ```
@@ -119,3 +119,25 @@ Then you should have a modal like one above at the button you'll see Webhook URL
 You copy it and Save a webhook and then fill the configuration file with your webhook URL.  
 You can have multiple webhooks to each punishment message type to different channels and with different icon & name.   
 
+#### How to use Ban command
+The syntax of a ban command is `/ban <player/steamID> [reason] [duration]`.  
+
+| Parameter      | Description  |
+------------- | -----------
+| player/steamID | If the player you want to ban is on the server you can use his character name to ban him, otherwise you have to use his steamID.  |
+| reason | Reason should be included between the quotes `""` if it's more than 1 word length, it's optional parameter unless you set RequireReason to true in the plugin's configuration.  |
+| duration | Duration can be formatted like this `1d` - 1 day, `1h` - 1 hour, `1m` - 1 minute, `1s` - 1 second, leave empty if you want to permanently ban someone. |
+
+See the usage exmaples below
+```
+/ban mcrow "breaking rules" 1d 20m 
+```
+This will ban player with name mcrow for breaking rules for 1 day and 20 minutes
+```
+/ban 76561198285897058 "abusing their powers" 7d 20h 30m 30s
+```
+This will ban player with steamid 76561198285897058 for abusing their powers for 7 days 20 hours 30 minutes and 30 seconds
+```
+/ban braian "making endless loops"
+```
+This will permanently ban braian for making endless loops

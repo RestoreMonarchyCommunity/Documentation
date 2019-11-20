@@ -2,4 +2,4 @@
 
 You will find many kind of guides on different languages here!
 
-Written by **MCrow** & **BraianKant** & **The rety**
+Written by **MCrow** & **BraianKant**
