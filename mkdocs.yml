@@ -21,6 +21,7 @@ nav:
       - Paid Plugins:
           - Moderation: plugins/moderation.md
           - Keycards: plugins/keycards.md
+          - Challenge: plugins/challenge.md
       - Development:
         - Getting Started: plugins/development/getting-started.md
 
