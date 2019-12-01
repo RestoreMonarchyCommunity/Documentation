@@ -27,6 +27,7 @@ nav:
 
 theme:
   name: 'material'
+  language: 'en'
   logo: 'assets/images/logo.png'
   palette:
     primary: 'cyan'
@@ -37,6 +38,8 @@ theme:
   favicon: 'favicon.ico'
   feature:
     tabs: true
+  search:
+    language: 'en, ru'
 
 markdown_extensions:
   - codehilite
