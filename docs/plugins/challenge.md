@@ -4,7 +4,7 @@ Plugin Name: **Challenge**
 Creator: [**MCrow**](steamcommunity.com/id/restoremonarchy)  
 Creation Date: **2019-11-29**  
 Price: **$7**  
-Buy: [**ImperialPlugins**](https://imperialplugins.com/Products/Challenge)
+Buy: [**ImperialPlugins**](https://imperialplugins.com/Products/Challenge)  
 Video Preview: [**Youtube**](https://youtu.be/zGa1GaED9hQ)
 
 ## About Plugin
