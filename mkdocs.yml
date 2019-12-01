@@ -4,8 +4,8 @@ site_author: 'MCrow'
 site_url: 'http://docs.restoremonarchy.com/'
 
 repo_name: 'RestoreMonarchCommunity/Documentation'
-repo_url: 'https://github.com/RestoreMonarchy/UnturnedServersCommunity'
-edit_uri: 'https://github.com/RestoreMonarchy/RestoreMonarchyDocs/blob/master/docs'
+repo_url: 'https://github.com/RestoreMonarchyCommunity/Documentation'
+edit_uri: 'https://github.com/RestoreMonarchyCommunity/Documentation/blob/master/docs'
 
 nav:
     - Home: index.md
