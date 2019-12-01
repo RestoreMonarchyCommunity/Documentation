@@ -3,7 +3,7 @@ site_description: 'A General Restore Monarchy Docs'
 site_author: 'MCrow'
 site_url: 'http://docs.restoremonarchy.com/'
 
-repo_name: 'RestoreMonarchy/UnturnedServersCommunity'
+repo_name: 'RestoreMonarchCommunity/Documentation'
 repo_url: 'https://github.com/RestoreMonarchy/UnturnedServersCommunity'
 edit_uri: 'https://github.com/RestoreMonarchy/RestoreMonarchyDocs/blob/master/docs'
 
