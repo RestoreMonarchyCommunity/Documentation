@@ -15,6 +15,7 @@ Moderation is an advanced and optimized plugin for punishing and checking player
 * It has all of the GlobalBan features and has a checkowner command
 * Unban messages are automatically sent when ban expires
 * Stores players' data long with the code of a country they connect from
+* Saves all punishemnts & bans to database table
 
 ## Commands
 **/ban** *<player/steamID> [reason] [duration]* – Bans specified `player` for `duration` with `reason`.
@@ -41,6 +42,15 @@ Moderation is an advanced and optimized plugin for punishing and checking player
 ``` 
 <Permission Cooldown="0">checkowner</Permission>
 ```
+**/playerinfo** *<player/steamID>* – Displays `player` name, country and bans, kicks, warns count
+``` 
+<Permission Cooldown="0">playerinfo</Permission>
+```
+**/glitch** – Teleports you to suspected glitch barricade or structure
+``` 
+<Permission Cooldown="0">glitch</Permission>
+```
+
 
 ## Configuration
 ```xml
@@ -83,6 +93,9 @@ Moderation is an advanced and optimized plugin for punishing and checking player
   <Translation Id="CheckownerFail" Value="You are not looking at any barricade, structure or locked vehicle." />
   <Translation Id="CheckownerSuccess" Value="Name: {0} | SteamID: {1} | IsBanned: {2}" />
   <Translation Id="RequireReason" Value="You must specify a reason!" />
+  <Translation Id="PlayerInfoMessage" Value="{0} from {1} has {2} bans, {3} kicks &amp; {4} warns" />
+  <Translation Id="NoGlitches" Value="Could not find any suspected glitch object on the map." />
+  <Translation Id="GlitchMessage" Value="You have been teleported to suspected glitch object!" />
 </Translations>
 ```
 
