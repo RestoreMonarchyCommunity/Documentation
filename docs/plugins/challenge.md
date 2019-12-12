@@ -30,6 +30,7 @@ Challenge plugin allows players to chellenge each other for cash. Player who kil
 <ChallengeConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <MessageColor>yellow</MessageColor>
   <ChallengeValidMinutes>3</ChallengeValidMinutes>
+  <ChallengeExpireMinutes>5</ChallengeExpireMinutes>
   <AnnounceWinner>true</AnnounceWinner>
 </ChallengeConfiguration>
 ```
@@ -38,7 +39,7 @@ Challenge plugin allows players to chellenge each other for cash. Player who kil
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Translations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Translation Id="ChallengeFormat" Value="Usage: /challenge &lt;player&gt; &lt;bet&gt;" />
+  <Translation Id="ChallengeFormat" Value="Usage: /challenge &lt;player/accept&gt; [bet]" />
   <Translation Id="ChallengeRequest" Value="{0} has challenged you with bet on {1} credits!" />
   <Translation Id="ChallengeYourself" Value="You cannot challenge yourself" />
   <Translation Id="ChallengeAlreadyIn" Value="You are already in challenge against {0}" />
@@ -51,5 +52,7 @@ Challenge plugin allows players to chellenge each other for cash. Player who kil
   <Translation Id="ChallengeShutdown" Value="Your challenge against {0} has has been canceled due to server shutdown!" />
   <Translation Id="ChallengeSuccess" Value="Successfully sent a challenge request to {0} on {1} bet!" />
   <Translation Id="ChallengeAnnouncement" Value="{0} won a challenge against {1}!" />
+  <Translation Id="OverrideRefund" Value="Your challenge request against {0} was overwritten. Refunded your {1} bet" />
+  <Translation Id="ExpireRefund" Value="Your challenge request against {0} has expired. Refunded your {1} bet" />
 </Translations>
 ```

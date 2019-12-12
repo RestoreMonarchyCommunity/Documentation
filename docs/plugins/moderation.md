@@ -42,11 +42,11 @@ Moderation is an advanced and optimized plugin for punishing and checking player
 ``` 
 <Permission Cooldown="0">checkowner</Permission>
 ```
-**/playerinfo** *<player/steamID>* – Displays `player` name, country and bans, kicks, warns count
+**/playerinfo** *<player/steamID>* – Displays `player` name, country and bans, kicks, warns count.
 ``` 
 <Permission Cooldown="0">playerinfo</Permission>
 ```
-**/glitch** – Teleports you to suspected glitch barricade or structure
+**/glitch** – Teleports you to suspected glitch barricade or structure.
 ``` 
 <Permission Cooldown="0">glitch</Permission>
 ```
