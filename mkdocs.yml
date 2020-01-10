@@ -22,6 +22,7 @@ nav:
           - Moderation: plugins/moderation.md
           - Keycards: plugins/keycards.md
           - Challenge: plugins/challenge.md
+          - LootBoxes: plugins/lootboxes.md
       - Development:
         - Getting Started: plugins/development/getting-started.md
 
