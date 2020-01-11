@@ -1,6 +1,6 @@
-<img src="/assets/images/LootBoxes.png" width="150" height="150" />
+<img src="/assets/images/DropBoxes.png" width="150" height="150" />
 
-Plugin Name: **LootBoxes**  
+Plugin Name: **DropBoxes**  
 Creator: [**MCrow**](steamcommunity.com/id/restoremonarchy)  
 Creation Date: **2020-01-10**  
 Price: **$10**  
@@ -12,8 +12,8 @@ Players can find and collect random boxes by doing different activities. Box dro
 ## Features
 * Configure custom loot boxes via configuration
 * Saves data in MySQL so it can be shared across servers
-* LootBoxes can drop with a different probability (1-1000) from different events e.g. zombie kill or resource found
-* Lootbox can drop one item picked based on probability (1-1000)
+* Boxes drop with a different probability (1-1000) from different events e.g. zombie kill or resource found
+* Box can drop one item, picked based on probability (1-1000)
 
 ## Commands
 **/boxes** – Shows a list of your boxes  
