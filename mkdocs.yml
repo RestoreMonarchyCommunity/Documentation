@@ -23,6 +23,7 @@ nav:
           - Keycards: plugins/keycards.md
           - Challenge: plugins/challenge.md
           - DropBoxes: plugins/dropboxes.md
+          - ChallengeRewards: plugins/challengerewards.md
       - Development:
         - Getting Started: plugins/development/getting-started.md
 
