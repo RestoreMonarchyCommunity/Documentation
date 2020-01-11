@@ -7,7 +7,7 @@ Price: **$10**
 Buy: [**ImperialPlugins**](https://imperialplugins.com/Products/ChallengeRewards)
 
 ## About Plugin
-Players receive random periodic quests that plugin keeps track of and rewards them if they complete a quest.
+Players receive random periodic quests that plugin tracks and rewards them if they complete them.
 
 ## Features
 * Players can complete daily, weekly & monthly quests
