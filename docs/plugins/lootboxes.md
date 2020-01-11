@@ -7,7 +7,7 @@ Price: **$10**
 Buy: [**ImperialPlugins**](https://imperialplugins.com/Products/LootBoxes)
 
 ## About Plugin
-Allows players to gain chests by players by doing different activities. Boxes drop based on chances and give a random item based on chance.
+Players can find and collect random boxes by doing different activities. Box drops a one picked item based on probability. 
 
 ## Features
 * Configure custom loot boxes via configuration
