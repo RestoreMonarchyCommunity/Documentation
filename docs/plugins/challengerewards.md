@@ -5,9 +5,10 @@ Creator: [**MCrow**](steamcommunity.com/id/restoremonarchy)
 Creation Date: **2020-01-10**  
 Price: **$10**  
 Buy: [**ImperialPlugins**](https://imperialplugins.com/Products/ChallengeRewards)
+Workshop: [**UI**](https://steamcommunity.com/sharedfiles/filedetails/?id=1943347710)
 
 ## About Plugin
-Players receive random periodic quests that plugin tracks and rewards them if they complete them.
+Players receive random periodic quests that plugin tracks and rewards them if they complete them.  
 
 ## Note
 In future if Unturned updates how UI work plugin will receive update so you'll can have infinite amount of challenges and quests. Currently you should only have x3 challenges first with x3 quests second with x2 and third x1  
