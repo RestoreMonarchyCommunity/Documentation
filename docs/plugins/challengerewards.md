@@ -3,7 +3,7 @@
 Plugin Name: **ChallengeRewards**  
 Creator: [**MCrow**](steamcommunity.com/id/restoremonarchy)  
 Creation Date: **2020-01-10**  
-Price: **$10**  
+Price: **$15**  
 Buy: [**ImperialPlugins**](https://imperialplugins.com/Products/ChallengeRewards)  
 Workshop: [**UI**](https://steamcommunity.com/sharedfiles/filedetails/?id=1943347710)
 
