@@ -18,6 +18,23 @@ In future if Unturned updates how UI work plugin will receive update so you'll c
 * Quests can reward in item, vehicle, money or experience
 * 16 available quest types!
 
+| Quest Type      | Description  |
+------------- | -----------
+| KILLS_ZOMBIES_NORMAL | All zombie kills (except mega)  |
+| KILLS_PLAYERS | Player kills  |
+| FOUND_ITEMS | Found items  |
+| FOUND_RESOURCES | Gathered resources (chopped trees, mined rocks)  |
+| FOUND_EXPERIENCE | Gained experience points |
+| KILLS_ZOMBIES_MEGA | Mega zombie kills  |
+| DEATHS_PLAYERS | Your (player) deaths  |
+| KILLS_ANIMALS | Animal kills  |
+| FOUND_CRAFTS | Found crafts (no idea)  |
+| HEADSHOTS | Headshots  |
+| ARENA_WINS | Arena wins  |
+| FOUND_BUILDABLES | Found buildables (picked up structures and barricades I guess)  |
+| FOUND_THROWABLES | Found throwables (grenades maybe)  |
+| FOUND_REPUTATION | Gained repoutation |
+
 ## Commands
 **/challenges** – Displays a UI with challenges and progress
 ```
@@ -28,9 +45,11 @@ In future if Unturned updates how UI work plugin will receive update so you'll c
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <ChallengeRewardsConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <HasOldMySQL>false</HasOldMySQL>
   <ConnectionString>Server=127.0.0.1;Database=unturned;Uid=root;Password=Password!123;</ConnectionString>
   <MessageColor>yellow</MessageColor>
   <EffectId>6548</EffectId>
+  <AllowDuplicateQuestTypes>false</AllowDuplicateQuestTypes>
   <Challenges>
     <ChallengeModel ChallengeName="Day" ChallengeDurationHours="24" QuestsAmount="3">
       <ChallengeQuests>
