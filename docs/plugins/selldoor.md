@@ -4,7 +4,7 @@ Plugin Name: **SellDoor**
 Creator: [**MCrow**](steamcommunity.com/id/restoremonarchy)  
 Creation Date: **2019-09-28**  
 Price: **Free**  
-Download: [**Rocket**](https://harbor.rocketmod.net/SellDoor)  
+Download: [**ImperialPlugins**](https://imperialplugins.com/Products/SellDoor/292)  
 Open Source: [**True**](https://github.com/RestoreMonarchyPlugins/SellDoor)
 
 ## About Plugin

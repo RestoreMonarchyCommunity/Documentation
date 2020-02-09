@@ -4,7 +4,7 @@ Plugin Name: **AirdropManager**
 Creator: [**MCrow**](steamcommunity.com/id/restoremonarchy)  
 Creation Date: **2019-05-13**  
 Price: **Free**  
-Download: [**Rocket**](https://harbor.rocketmod.net/AirdropManager)   
+Download: [**ImperialPlugins**](https://imperialplugins.com/Products/AirdropManager/291)   
 Open Source: [**True**](https://github.com/RestoreMonarchyPlugins/AirdropManager)
 
 ## About Plugin

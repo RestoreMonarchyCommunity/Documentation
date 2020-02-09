@@ -4,7 +4,7 @@ Plugin Name: **GreenCoords**
 Creator: [**Braian Kant**](https://steamcommunity.com/id/greenorine)  
 Creation Date: **2019-10-14**  
 Price: **Free**  
-Download: [**Rocket**](https://harbor.rocketmod.net/GreenCoords)  
+Download: [**Rocket**](https://imperialplugins.com/Products/GreenCoords/293)  
 Open Source: [**True**](https://github.com/RestoreMonarchyPlugins/GreenCoords)
 
 ## About Plugin

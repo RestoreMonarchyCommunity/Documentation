@@ -4,7 +4,7 @@ Plugin Name: **Teleportation**
 Creator: [**MCrow**](steamcommunity.com/id/restoremonarchy)  
 Creation Date: **2019-09-19**  
 Price: **Free**  
-Download: [**Rocket**](https://harbor.rocketmod.net/teleportation-2)   
+Download: [**ImperialPlugins**](https://imperialplugins.com/Products/Teleportation/290)   
 Open Source: [**True**](https://github.com/RestoreMonarchyPlugins/Teleportation)  
 
 ## About Plugin
