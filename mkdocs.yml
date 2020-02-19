@@ -24,8 +24,10 @@ nav:
           - Challenge: plugins/challenge.md
           - DropBoxes: plugins/dropboxes.md
           - ChallengeRewards: plugins/challengerewards.md
-      - Development:
-        - Getting Started: plugins/development/getting-started.md
+    - Marketplace:
+      - Overview: marketplace/overview.md
+      - Installation: 
+          - Website: marketplace/website-installation.md
 
 theme:
   name: 'material'
