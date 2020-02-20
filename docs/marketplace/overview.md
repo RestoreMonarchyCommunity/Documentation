@@ -27,11 +27,9 @@ Marketplace is a three parts project (website, plugin & client side module). It 
 ## How it works
 As it was said in product description, it's built of three projects. They all kind of depend on each other:  
 
-* **Web** is the most essential part of Marketplace. Through the website players can see items listings and if they sign in through Steam, they can buy and manage their sellings.
-
-* **Plugin** provides a way for players to withdraw their items from Marketplace within the valid purchase. It's also got a command to put their items on sale. 
-
-* **Module** first requests from web API a list of assets uploaded by plugin when first ran on the server and then generate and upload icon for each of them that do not have icon yet
+* Web is the most essential part of Marketplace. Through the website players can see items listings and if they sign in through Steam, they can buy and manage their sellings.
+* Plugin provides a way for players to withdraw their items from Marketplace within the valid purchase. It's also got a command to put their items on sale. 
+* Module first requests from web API a list of assets uploaded by plugin when first ran on the server and then generate and upload icon for each of them that do not have icon yet
 
 ## Commands
 **/sell** `<price>` – Puts an item you drop in vault like storage on sale for a given `price`  
