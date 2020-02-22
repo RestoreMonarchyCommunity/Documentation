@@ -21,6 +21,7 @@ Marketplace is a three parts project (website, plugin & client side module). It 
 * Long Term Support
 
 ## Planned features
+* Translations
 * Vehicles Marketplace
 * Admin dashboard for Marketplace to blacklist items, edit assets and wipe listings
 
