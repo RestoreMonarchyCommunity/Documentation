@@ -82,8 +82,7 @@ systemctl restart nginx
 cd /var/www/marketplace-web/web
 dotnet Marketplace.Server
 ```
-!!! note
-Remember to first properly configure the website in `appsettings.json` before running!
+!!! note Remember to first properly configure the website in `appsettings.json` before running!
 
 2. Now stop the website running by pressing `ctrl + c` because we want to have it running as service.
 
