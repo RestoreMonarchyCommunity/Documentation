@@ -7,7 +7,7 @@ Before installing Marketplace, you should check that your web server has the fol
 Marketplace website is running on ASP.NET Core 3.1 with Blazor WebAssembly. It may also require some other packages in order to work, depending on OS.
 
 ### Installing Web
-**Installing .NET Core Runtime**  
+#### Installing .NET Core Runtime
 1. Firstly register Microsoft key and feed
 ```
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
@@ -21,12 +21,12 @@ sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install aspnetcore-runtime-3.1
 ```
-**Downloading and installing Marketplace-Web**   
+#### Downloading and installing Marketplace-Web    
 1. Download latest release from Marketplace-Web repo on Github [here](https://github.com/RestoreMonarchy/Marketplace-Web/releases)
 2. Upload `Marketplace.zip` to your server via some FTP Client (e.g. FileZilla) to `/var/www/marketplace-web` directory
 3. On your SSH client use `cd /var/www/marketplace-web` and then type in `unzip Marketplace.zip` to extract the zip file
 
-**Setting up Nginx Web Server**
+#### Setting up Nginx Web Server 
 1. Create a new `marketplace-web.conf` file inside `/etc/nginx/sites-available`
 2. Open it and paste the following text, remember to change `DOMAINNAME.COM` variable to your domain address. 
 
@@ -76,7 +76,7 @@ sudo ln -s /etc/nginx/sites-available/marketplace-web.conf /etc/nginx/sites-enab
 systemctl restart nginx
 ```
 
-**Running Marketplace-Web**
+#### Running Marketplace-Web  
 1. First you should make sure your Marketplace-Web is working properly, so go to web files directory and use start the website.
 ```
 cd /var/www/marketplace-web/web
