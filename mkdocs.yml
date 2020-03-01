@@ -27,7 +27,8 @@ nav:
     - Marketplace:
       - Overview: marketplace/overview.md
       - Installation: 
-          - Website: marketplace/website-installation.md
+          - Plugin: marketplace/plugin-installation.md
+          - Website on Linux: marketplace/website-linux-installation.md
 
 theme:
   name: 'material'
