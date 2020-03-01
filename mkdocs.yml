@@ -29,6 +29,7 @@ nav:
       - Installation: 
           - Plugin: marketplace/plugin-installation.md
           - Website on Linux: marketplace/website-linux-installation.md
+          - Uploading Icons: https://www.youtube.com/watch?v=Hf5Eklk2ybM
 
 theme:
   name: 'material'
