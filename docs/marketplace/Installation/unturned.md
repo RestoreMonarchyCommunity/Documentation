@@ -1,4 +1,5 @@
-## Plugin Installation & Configuration
+### Installation
+Once you bought the plugin on [ImperialPlugins.com](https://imperialplugins.com/Products/Marketplace/313) you'll have to download ImperialPluginsBootstrapper and follow the `Readme - Install Instructions.txt` instructions.
 
 ### Configuration
 ```xml

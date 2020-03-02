@@ -27,9 +27,9 @@ nav:
     - Marketplace:
       - Overview: marketplace/overview.md
       - Installation: 
-          - Plugin: marketplace/plugin-installation.md
-          - Website on Linux: marketplace/website-linux-installation.md
-          - Uploading Icons: https://www.youtube.com/watch?v=Hf5Eklk2ybM
+          - Unturned Server: marketplace/installation/unturned.md
+          - Web Server (Linux): marketplace/webserver-linux.md
+          - Adding Icons: https://www.youtube.com/watch?v=Hf5Eklk2ybM
 
 theme:
   name: 'material'
