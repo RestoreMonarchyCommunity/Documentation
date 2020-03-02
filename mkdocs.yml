@@ -28,7 +28,7 @@ nav:
       - Overview: marketplace/overview.md
       - Installation: 
           - Unturned Server: marketplace/installation/unturned.md
-          - Web Server (Linux): marketplace/webserver-linux.md
+          - Web Server (Linux): marketplace/installation/webserver-linux.md
           - Adding Icons: https://www.youtube.com/watch?v=Hf5Eklk2ybM
 
 theme:
