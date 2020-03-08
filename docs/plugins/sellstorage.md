@@ -3,7 +3,7 @@
 Plugin Name: **SellStorage**  
 Creator: [**MCrow**](steamcommunity.com/id/restoremonarchy)  
 Creation Date: **2020-03-07**  
-Price: **$10**  
+Price: **$12**  
 Buy: [**ImperialPlugins**](https://imperialplugins.com/Products/SellStorage)
 
 ## About Plugin
