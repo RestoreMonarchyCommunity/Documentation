@@ -29,6 +29,9 @@ This plugin allows you to steal items from players. To do this, use the animatio
   <UsePermissions>false</UsePermissions>
   <NotifyPolice>false</NotifyPolice>
   <PoliceGroupId>police</PoliceGroupId>
+  <MaxDistance>5</MaxDistance>
+  <UseBypass>true</UseBypass>
+  <MessageColor>yellow</MessageColor>
 </PickpocketConfiguration>
 ```
 
@@ -44,5 +47,6 @@ This plugin allows you to steal items from players. To do this, use the animatio
   <Translation Id="NOTHING" Value="{0} had nothing to steal!" />
   <Translation Id="COOLDOWN" Value="You have to wait {0} seconds before you can pickpocket again" />
   <Translation Id="NOTIFY_POLICE" Value="{0} stole {1}({2}) from {3}" />
+  <Translation Id="BYPASS" Value="This player cannot be robbed" />
 </Translations>
 ```
