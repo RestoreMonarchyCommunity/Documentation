@@ -126,7 +126,8 @@ ChallengeRewards 1.1 update are mainly optimization improvements (calling databa
 ## FAQ
 
 #### What UI should I use?
-You can use any UI you want, but if you want to use main ChallengeRewardsUI (8430) with pagination and tabs, you'll need to make sure you follow these:
+You can use any UI you want, but if you want to use main ChallengeRewardsUI (8430) with pagination and tabs, you'll need to make sure you follow these:  
+
 * You must have exactly 3 challenges named `daily, weekly, monthly`, so like in default configuration (name is never displayed to player but public name is, so you can translate these to your language)
 * If you want to use claim button, make sure you have `GiveRewardOnComplete` disabled
 * You can have any amount of quests, that's what pagination is for
