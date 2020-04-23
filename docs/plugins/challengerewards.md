@@ -5,18 +5,19 @@ Creator: [**MCrow**](steamcommunity.com/id/restoremonarchy)
 Creation Date: **2020-01-10**  
 Price: **$15**  
 Buy: [**ImperialPlugins**](https://imperialplugins.com/Products/ChallengeRewards)  
-Workshop: [**UI**](https://steamcommunity.com/sharedfiles/filedetails/?id=1943347710)
+Workshop: [**Steam**](https://steamcommunity.com/sharedfiles/filedetails/?id=2061613655)
 
 ## About Plugin
 Players receive random periodic quests that plugin tracks and rewards them if they complete them.  
 
-## Note
-In future if Unturned updates how UI work plugin will receive update so you'll can have infinite amount of challenges and quests. Currently you should only have x3 challenges first with x3 quests second with x2 and third x1  
+## 1.1 Update Note
+ChallengeRewards 1.1 update are mainly optimization improvements (calling database from non-game thread), clean up (cleaned up the code and changed pattern) and two new UIs.
 
 ## Features
-* Players can complete daily, weekly & monthly quests
+* Plugin has support for two different UIs  
 * Quests can reward in item, vehicle, money or experience
-* 16 available quest types!
+* Quest rewards can be claimed either through UI or automatically given on complete
+* 14 available quest types!
 
 | Quest Type      | Description  |
 ------------- | -----------
@@ -36,7 +37,7 @@ In future if Unturned updates how UI work plugin will receive update so you'll c
 | FOUND_REPUTATION | Gained repoutation |
 
 ## Commands
-**/challenges** – Displays a UI with challenges and progress
+**/challenges** – Displays challenges UI
 ```
 <Permission Cooldown="0">challenges</Permission>
 ```
@@ -48,10 +49,11 @@ In future if Unturned updates how UI work plugin will receive update so you'll c
   <HasOldMySQL>false</HasOldMySQL>
   <ConnectionString>Server=127.0.0.1;Database=unturned;Uid=root;Password=Password!123;</ConnectionString>
   <MessageColor>yellow</MessageColor>
-  <EffectId>6548</EffectId>
+  <EffectId>8430</EffectId>
   <AllowDuplicateQuestTypes>false</AllowDuplicateQuestTypes>
+  <GiveRewardOnComplete>false</GiveRewardOnComplete>
   <Challenges>
-    <ChallengeModel ChallengeName="Day" ChallengeDurationHours="24" QuestsAmount="3">
+    <ChallengeModel ChallengeName="daily" ChallengePublicName="Daily" ChallengeDurationHours="24" QuestsAmount="3">
       <ChallengeQuests>
         <ChallengeQuestModel QuestType="Kills_Zombies_Normal" Target="10" Reward="EXPERIENCE_200" />
         <ChallengeQuestModel QuestType="Kills_Players" Target="2" Reward="ITEM_363" />
@@ -59,7 +61,7 @@ In future if Unturned updates how UI work plugin will receive update so you'll c
         <ChallengeQuestModel QuestType="Kills_Animals" Target="3" Reward="ITEM_1364" />
       </ChallengeQuests>
     </ChallengeModel>
-    <ChallengeModel ChallengeName="Week" ChallengeDurationHours="168" QuestsAmount="2">
+    <ChallengeModel ChallengeName="weekly" ChallengePublicName="Weekly" ChallengeDurationHours="168" QuestsAmount="2">
       <ChallengeQuests>
         <ChallengeQuestModel QuestType="Kills_Zombies_Normal" Target="20" Reward="EXPERIENCE_200" />
         <ChallengeQuestModel QuestType="Kills_Players" Target="5" Reward="ITEM_363" />
@@ -67,7 +69,7 @@ In future if Unturned updates how UI work plugin will receive update so you'll c
         <ChallengeQuestModel QuestType="Kills_Animals" Target="5" Reward="ITEM_1364" />
       </ChallengeQuests>
     </ChallengeModel>
-    <ChallengeModel ChallengeName="Month" ChallengeDurationHours="720" QuestsAmount="1">
+    <ChallengeModel ChallengeName="monthly" ChallengePublicName="Monthly" ChallengeDurationHours="720" QuestsAmount="1">
       <ChallengeQuests>
         <ChallengeQuestModel QuestType="Kills_Zombies_Normal" Target="30" Reward="EXPERIENCE_200" />
         <ChallengeQuestModel QuestType="Kills_Players" Target="15" Reward="ITEM_363" />
@@ -76,7 +78,6 @@ In future if Unturned updates how UI work plugin will receive update so you'll c
       </ChallengeQuests>
     </ChallengeModel>
   </Challenges>
-</ChallengeRewardsConfiguration>
 ```
 
 ## Translations
@@ -93,8 +94,16 @@ In future if Unturned updates how UI work plugin will receive update so you'll c
   <Translation Id="VehicleReward" Value="Reward: {0}" />
   <Translation Id="ExperienceReward" Value="Reward: {0} experience" />
   <Translation Id="NoChallenges" Value="You don't have any challenge" />
-  <Translation Id="QuestProgress" Value="{0}/{1}" />
-  <Translation Id="QuestCompleted" Value="Completed" />
+  <Translation Id="UI_Header" Value="Challenges" />
+  <Translation Id="UI_Next" Value="Next" />
+  <Translation Id="UI_Prev" Value="Prev" />
+  <Translation Id="UI_Close" Value="Close" />
+  <Translation Id="UI_QuestProgress" Value="{0}/{1}" />
+  <Translation Id="UI_QuestCompleted" Value="Completed" />
+  <Translation Id="UI_QuestClaim" Value="Claim" />
+  <Translation Id="UI_Page" Value="{0}/{1}" />
+  <Translation Id="UI_Simple_Title" Value="{0} Quest {1}" />
+  <Translation Id="UI_Simple_Progress" Value="Progress: {0}/{1}" />
   <Translation Id="KILLS_ZOMBIES_NORMAL" Value="Kill Zombies" />
   <Translation Id="KILLS_PLAYERS" Value="Kill Players" />
   <Translation Id="FOUND_ITEMS" Value="Find Items" />
@@ -113,3 +122,11 @@ In future if Unturned updates how UI work plugin will receive update so you'll c
   <Translation Id="FOUND_REPUTATION" Value="Gain Reputation" />
 </Translations>
 ```
+
+## FAQ
+
+#### What UI should I use?
+You can use any UI you want, but if you want to use main ChallengeRewardsUI (8430) with pagination and tabs, you'll need to make sure you follow these:
+* You must have exactly 3 challenges named `daily, weekly, monthly`, so like in default configuration (name is never displayed to player but public name is, so you can translate these to your language)
+* If you want to use claim button, make sure you have `GiveRewardOnComplete` disabled
+* You can have any amount of quests, that's what pagination is for
