@@ -47,6 +47,10 @@ markdown_extensions:
   - admonition
   - meta
 
+features:
+    - tabs
+    - instant
+
 extra:
   social:
     - type: 'github'
