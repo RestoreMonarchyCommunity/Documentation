@@ -39,6 +39,7 @@ theme:
   favicon: 'favicon.ico'
   feature:
     tabs: true
+    instant: true
   search:
     language: 'en, ru'
 
@@ -46,10 +47,6 @@ markdown_extensions:
   - codehilite
   - admonition
   - meta
-
-features:
-    - tabs
-    - instant
 
 extra:
   social:
