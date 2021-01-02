@@ -42,10 +42,7 @@ theme:
   search:
     language: 'en, ru'
 
-markdown_extensions:
-  - codehilite
-  - admonition
-  - meta
+
 
 extra:
   social:
