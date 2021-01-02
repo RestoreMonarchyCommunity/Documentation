@@ -39,7 +39,6 @@ theme:
   favicon: 'favicon.ico'
   feature:
     tabs: true
-    instant: true
   search:
     language: 'en, ru'
 
@@ -58,4 +57,4 @@ extra:
 extra_css:
   - 'stylesheets/global.css'
 
-copyright: 'Copyright &copy; 2018-2019 Restore Monarchy'
+copyright: 'Copyright &copy; 2018-2021 Restore Monarchy'
