@@ -42,14 +42,12 @@ theme:
   search:
     language: 'en, ru'
 
+markdown_extensions:
+  - codehilite
+  - admonition
+  - meta
 
 
-extra:
-  social:
-    - type: 'github'
-      link: 'https://github.com/restoremonarchy'
-    - type: 'twitter'
-      link: 'https://twitter.com/restoremonarchy'
       
 extra_css:
   - 'stylesheets/global.css'
